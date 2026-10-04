@@ -18,8 +18,31 @@ Download [MARS 4.5 from its official repository](https://github.com/dpetersander
 
 Complete outputs were verified using the official MARS simulator. Tests included loop bounds 0, 1, 2, 99, and 100; zero and negative memory inputs; signed 32-bit limits and expected overflow; all four FizzBuzz cases; and delayed branching on and off.
 
-`Assignment3_Report.pdf` includes full output, recorded MARS register/memory traces, tests, and a reflection draft to personalize. GUI screenshots are pending capture.
+`Assignment3_Report.pdf` includes full output, recorded MARS register/memory traces, tests, and a reflection draft to personalize. GUI screenshots are included below. They show source code and captured Run I/O; the PDF contains the step-by-step register and memory traces.
 
 ## Sources and collaboration
 
 Instructor Dominic Dabish's CS240 Thursday examples `mips1.asm` through `mips15.asm` informed the memory, syscall, and loop patterns. MARS was developed by Pete Sanderson and Kenneth Vollmar. OpenAI Codex assisted with program preparation, testing, trace capture, and report drafting. Review the work and follow the course collaboration policy before submission.
+
+## MARS screenshots
+
+### Hello World
+
+![Hello World](screenshots/01_hello_world.png)
+
+### Print 1 through 100
+
+![Print 1 through 100](screenshots/02_print_1_to_100.png)
+
+### Even sum: 2550
+
+![Even sum: 2550](screenshots/03_sum_even.png)
+
+### Memory addition: 15
+
+![Memory addition: 15](screenshots/04_add_from_memory.png)
+
+### FizzBuzz
+
+![FizzBuzz](screenshots/05_fizzbuzz.png)
+
