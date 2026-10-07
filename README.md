@@ -198,6 +198,4 @@ Use [MARS 4.5](https://github.com/dpetersanderson/MARS/releases) with Java. Open
 
 Verified results: Hello World; integers 1-100; even sum 2550; memory sum 8 + 7 = 15; FizzBuzz 1-100. Tests also covered loop bounds, zero and negative inputs, signed limits and expected overflow, and delayed branching on and off.
 
-## Sources and collaboration
 
-Instructor Dominic Dabish's CS240 Thursday examples `mips1.asm` through `mips15.asm` informed the memory, syscall, and loop patterns. MARS was developed by Pete Sanderson and Kenneth Vollmar. OpenAI Codex assisted with program preparation, testing, trace capture, report drafting, and repository organization. Execution screenshots were captured by the student. Review the work and follow the course collaboration policy before submission.
